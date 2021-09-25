@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#f4f4f4f4"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Login Simples"
+            android:textColor="#7E57C2"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/login"
+            android:layout_below="@id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_login"
+            android:layout_marginTop="32dp"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:drawableRight="@drawable/ic_baseline_email_24"
+            android:layout_below="@id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:ems="9"
+            android:layout_marginTop="32dp"
+            />
+
+    <EditText
+        android:id="@+id/senha"
+        android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+        android:layout_below="@id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:ems="9"
+        android:layout_marginTop="32dp"
+        />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_below="@id/senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:layout_marginTop="16dp"
+            />
+
+    <TextView
+        android:id="@+id/esqueci_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:hint="Esqueci minha senha"
+        android:gravity="right"
+
+
+        />
+
+
+    </RelativeLayout>
+
